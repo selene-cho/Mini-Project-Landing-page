@@ -6,7 +6,7 @@ body {
 }
 /* 헤더 부분 기본 배경화면 */
 #header{
-  background-image: url('bg1.jpg');
+  background-image: url('img/bg1.jpg');
 }
 /* a링크 밑줄 & 파랑글씨 변경 */
 a {
@@ -111,7 +111,7 @@ p{
   z-index: 2000;
 }
 .popupbox{
-  background-image: url('bg2.jpg');
+  background-image: url('img/bg2.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -129,14 +129,14 @@ p{
   right: 0%;
   transform: translate(100%, -50%);
   padding: 16px;
-  background-image: url('bg7.png');
+  background-image: url('img/bg7.png');
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 100%;
   z-index: 1;
 }
 .popupcancle:hover{
-  background-image: url('bg6.png');
+  background-image: url('img/bg6.png');
 }
 .middle_all{
   display: flex;
@@ -149,6 +149,7 @@ p{
   position: relative;
   width: 68%;
   user-select: none;
+  transition: 0.5s;
 }
 .slide_item{
   display: flex;

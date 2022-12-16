@@ -1,19 +1,10 @@
-const tooglebtn = document.querySelector('.navbar_tooglebtn');
-const menu = document.querySelector('.navbar_menu');
+var a = document.getElementById("popup").style.display="inline";
 
-var a;
-  function show_hide(){
-    if(a==1){
-      document.getElementById("popup").style.display="inline";
-      return a=0;
-    }else{
-      document.getElementById("popup").style.display="none";
-      return a=1;
-    }
-  }
-  tooglebtn.addEventListener('click',() => {
-  menu.classList.toggle('active');  
-});
+if(a = true){
+  document.querySelector('.popupcancle').addEventListener('click', function(){
+    document.getElementById("popup").style.display="none";
+  });
+}
 
 const slide = document.querySelector(".slide");
 let slideWidth = slide.clientWidth;
@@ -154,26 +145,22 @@ slide.addEventListener("mouseout", () => {
   }, 3000);
 });
 
-var count = 0;
 
-document.querySelector('.btn02').addEventListener('click', function(){
-  count++;
-  if(count==1){
-    document.querySelector('.subcontainer').style.transform = 'translate(-70vw)';
-  }else if(count == 2){
-    document.querySelector('.subcontainer').style.transform = 'translate(-110vw)';
-  }
-});
+var a = document.querySelector('.subcontainer').style.transform = 'translate(0vw)';
+var b = document.querySelector('.btn02').addEventListener('click', function(){
+          document.querySelector('.subcontainer').style.transform = 'translate(-70vw)';
+        });
 
-var counta = 0;
-
-document.querySelector('.btn01').addEventListener('click', function(){
-  counta++;
-  if(counta==1){
-    document.querySelector('.subcontainer').style.transform = 'translate(-70vw)';
-  }else if(counta == 2){
+if(a = true){
+  document.querySelector('.btn02').addEventListener('click', function(){
+      document.querySelector('.subcontainer').style.transform = 'translate(-70vw)';
+  });
+}
+if(b = true){
+  document.querySelector('.btn01').addEventListener('click', function(){
     document.querySelector('.subcontainer').style.transform = 'translate(0vw)';
-  }
 });
-  
-
+  document.querySelector('.btn02').addEventListener('click', function(){
+    document.querySelector('.subcontainer').style.transform = 'translate(-110vw)';
+  });
+}
