@@ -227,10 +227,81 @@ ul, li{
 .favorit img{
   width: 100%;
 }
+.subcontainer1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 250vw;
+  transition: 0.5s;
+}
+.favorit1{
+  box-shadow: 2px 2px 2px black;
+  width: 20vw;
+  margin-left: 10px;
+}
+.favorit1 img{
+  width: 100%;
+}
+.subcontainer2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 250vw;
+  transition: 0.5s;
+}
+.favorit2{
+  box-shadow: 2px 2px 2px black;
+  width: 20vw;
+  margin-left: 10px;
+}
+.favorit2 img{
+  width: 100%;
+}
 .aslide{
   font-size: 30px;
 }
-
+.btn01{
+  width: 1.3%;
+}
+.btn01 img{
+  width: 100%;
+}
+.btn02{
+  width: 1.3%;
+ float: right;
+}
+.btn02 img{
+  width: 100%;
+}
+.btn03{
+  width: 1.3%;
+ clear: both;
+}
+.btn03 img{
+  width: 100%;
+}
+.btn04{
+  background-color:;
+  width: 1.3%;
+ float: right;
+}
+.btn04 img{
+  width: 100%;
+}
+.btn05{
+  background-color:;
+  width: 1.3%;
+  clear: both;
+}
+.btn05 img{
+  width: 100%;
+}
+.btn06{
+  background-color:;
+  width: 1.3%;
+ float: right;
+}
+.btn06 img{
+  width: 100%;
+}
 /* 뷰포트값 변화시 변화하는 과정 */
 
 @media screen and (max-width: 768px) {

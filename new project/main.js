@@ -164,3 +164,41 @@ if(b = true){
     document.querySelector('.subcontainer').style.transform = 'translate(-110vw)';
   });
 }
+
+var c = document.querySelector('.subcontainer1').style.transform = 'translate(0vw)';
+var d = document.querySelector('.btn04').addEventListener('click', function(){
+          document.querySelector('.subcontainer1').style.transform = 'translate(-70vw)';
+        });
+
+if(c = true){
+  document.querySelector('.btn04').addEventListener('click', function(){
+      document.querySelector('.subcontainer1').style.transform = 'translate(-70vw)';
+  });
+}
+if(d = true){
+  document.querySelector('.btn03').addEventListener('click', function(){
+    document.querySelector('.subcontainer1').style.transform = 'translate(0vw)';
+});
+  document.querySelector('.btn04').addEventListener('click', function(){
+    document.querySelector('.subcontainer1').style.transform = 'translate(-110vw)';
+  });
+}
+
+var e = document.querySelector('.subcontainer2').style.transform = 'translate(0vw)';
+var f = document.querySelector('.btn06').addEventListener('click', function(){
+          document.querySelector('.subcontainer2').style.transform = 'translate(-70vw)';
+        });
+
+if(e = true){
+  document.querySelector('.btn06').addEventListener('click', function(){
+      document.querySelector('.subcontainer2').style.transform = 'translate(-70vw)';
+  });
+}
+if(f = true){
+  document.querySelector('.btn05').addEventListener('click', function(){
+    document.querySelector('.subcontainer2').style.transform = 'translate(0vw)';
+});
+  document.querySelector('.btn06').addEventListener('click', function(){
+    document.querySelector('.subcontainer2').style.transform = 'translate(-110vw)';
+  });
+}
