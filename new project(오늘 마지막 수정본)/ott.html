@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> <!--내가 작성한 css를 가져오는 링크-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--햄버거 아이콘 쓰기 위해 불러온 링크-->
+  <script src="https://kit.fontawesome.com/3d3e474ad5.js" crossorigin="anonymous"></script> <!--햄버거 아이콘 쓰기 위해 불러온 링크-->
+  <script src="main.js" defer></script> <!--내가 작성한 자바스크립을 연결하는 링크-->
+  <title>Document</title>
+</head>
+<body>
+  <div id="hamburger">
+    <div class="hamcontainer">
+      <div class="hambox">
+        <div>
+        <a class="hammenu" href="#">OZ_Plus</a>
+        </div>
+        <div>
+        <a class="hammenu1" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </div>
+        <div>
+        <a class="hammenu2" href="#"><i class="fa-solid fa-user"></i> 로그인/회원가입</a>
+        </div>
+        <!-- ----------------------------------추가 부분------------------------------------------------ -->
+        <div>
+          <a class="hammenu7" href="#"><i class="fa-solid fa-list"></i>  소개</a>
+        </div> 
+        <div>
+          <a class="hammenu8" href="#"><i class="fa-solid fa-notes-medical"></i>  구독 서비스</a>
+        </div>
+        <div>
+          <a class="hammenu9" href="#"><i class="fa-solid fa-mobile"></i>  연동 기기</a>
+        </div>
+        <div>
+          <a class="hammenu10" href="#"><i class="fa-sharp fa-solid fa-question"></i>  자주 묻는 질문</a>
+        </div>
+        <!-- ___-------------------------------------------여기 까지-------------------------------- -->
+        <div>
+        <a class="hammenu3" href="#"><img src="/new project/img/you.png"></a>
+        </div>
+        <div>
+        <a class="hammenu4" href="#"><img src="/new project/img/in.png"></a>
+        </div>
+        <div>
+        <a class="hammenu5" href="#"><img src="/new project/img/tw.png"></a>
+        </div>
+        <div>
+        <a class="hammenu6" href="#"><img src="/new project/img/facebook.png"></a>
+        </div>
+        <div class="hamcancle">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--팝업 창 구현 HTML-->
+  <div id="popup">
+    <div class="popupbox">
+      <div class="popupcancle"></div>
+    </div>
+  </div>
+  <!-- 상단 로고 & 아이디 회원가입 메뉴 구현 HTML -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="fa-solid fa-video"></i>
+        <a href="#">OZ_Plus</a>
+      </div>
+      <!----------------------이 부분 추가----------- -->
+      <ul class="sel">
+        <li><a href="">소개</a></li>
+        <li><a href="">구독 서비스</a></li>
+        <li><a href="">연동 기기</a></li>
+        <li><a href="">자주 묻는 질문</a></li>
+      </ul>
+      <!-- -------------------------여기 까지--------------- -->
+      <ul class="navbar_menu">
+        <li><a href="">로그인</a></li>
+        <li><a href="">회원가입</a></li>
+      </ul>
+      <a href="#" class="navbar_tooglebtn"><i class="fa-solid fa-bars"></i></a>
+    </nav>
+    <!-- 첫 단락 HTML -->
+    <div class="container">
+      <div class="conimg">
+        <video muted autoplay loop>                 <!--비디오 사입 코드-->
+          <source src="/new project/img/카지노 티저 예고편ㅣ디즈니 360p.mp4" type="video/mp4">
+          <strong>Your browser does not support the video tag.</strong>
+        </video>
+        <div class="write">
+          <p class="hw">OZ 탄생!<br>
+          새로운 OTT 서비스<br></p>
+          <p class="mw">OZ와 함께<br>방송, 영화, 해외시리즈, 애니메이션 등<br>마법 같은 일상의 재미를 느껴보세요.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!----------------------------------------------------------- 여기까지 헤드부분---------------------------------------------------->
+  <section id="contact1">
+    <div class="middle1">
+      <p class="hw">OZ에만 있는 재미!<br></p>
+      <p class="mw">오리지널 콘텐츠를 만나보세요!<br></p>
+      <p class="m2w">차별화된 웰메이드 오리지널 콘텐츠</p>
+    </div>
+    <div class="middle_all">
+      <div class="slide slide_wrap">
+        <div class="slide_item">
+          <img src="/new project/img/01.jpg">
+        </div>
+        <div class="slide_item">
+          <img src="/new project/img/02.jpg">
+        </div>
+        <div class="slide_item">
+          <img src="/new project/img/03.jpg">
+        </div>
+        <div class="slide_item">
+          <img src="/new project/img/04.jpg">
+        </div>
+        <div class="slide_prev_button slide_button"></div>
+        <div class="slide_next_button slide_button"></div>
+        <ul class="slide_pagination"></ul>
+      </div>
+    </div>
+  </section>
+  <section id="contact2">
+    <div>
+      <p class="m2w1">주목할 만한 한국 콘텐츠</p>
+    </div>
+    <div class="btn01">
+      <img src="/new project/img/angle-left-icon.jpg">
+    </div>
+    <div style="overflow: hidden;">
+        <div class="subcontainer">
+          <div class="favorit">
+            <img id="k1" src="/new project/img/a.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/b.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/c.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/d.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/e.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/f.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/g.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/h.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/i.jpg">
+          </div>
+          <div class="favorit">
+            <img src="/new project/img/j.jpg">
+          </div>
+        </div>
+    </div>
+    <div class="btn02">
+      <img src="/new project/img/angle-right-icon.jpg">
+    </div>
+    <div>
+      <p class="m2w1">취향저격 추천 콘텐츠</p>
+    </div>
+
+    <!-- __________________________________------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div class="btn03">
+      <img src="/new project/img/angle-left-icon.jpg">
+    </div>
+    <div style="overflow: hidden;">
+        <div class="subcontainer1">
+          <div class="favorit1">
+            <img id="k1" src="/new project/img/a.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/b.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/c.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/d.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/e.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/f.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/g.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/h.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/i.jpg">
+          </div>
+          <div class="favorit1">
+            <img src="/new project/img/j.jpg">
+          </div>
+        </div>
+    </div>
+    <div class="btn04">
+      <img src="/new project/img/angle-right-icon.jpg">
+    </div>
+    <div>
+      <p class="m2w1">OZ_Plus 최신작</p>
+    </div>
+    <div class="btn05">
+      <img src="/new project/img/angle-left-icon.jpg">
+    </div>
+    <div style="overflow: hidden;">
+        <div class="subcontainer2">
+          <div class="favorit2">
+            <img id="k1" src="/new project/img/a.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/b.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/c.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/d.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/e.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/f.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/g.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/h.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/i.jpg">
+          </div>
+          <div class="favorit2">
+            <img src="/new project/img/j.jpg">
+          </div>
+        </div>
+    </div>
+    <div class="btn06">
+      <img src="/new project/img/angle-right-icon.jpg">
+    </div>
+
+  </section>
+</body>
+</html>
