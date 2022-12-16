@@ -202,3 +202,19 @@ if(f = true){
     document.querySelector('.subcontainer2').style.transform = 'translate(-110vw)';
   });
 }
+
+// var ham = document.getElementById("hamburger").style.display="none";
+
+// if(ham = true){
+//   document.querySelector('.navbar_tooglebtn').addEventListener('click', function(){
+//     document.getElementById("hamburger").style.display="inline";
+//   });
+// }
+
+// var hamclose = document.getElementById("hamburger").style.display="inline";
+
+// if(ham = true){
+//   document.querySelector('.hammenu1').addEventListener('click', function(){
+//     document.getElementById("hamburger").style.display="none";
+//   });
+// }
