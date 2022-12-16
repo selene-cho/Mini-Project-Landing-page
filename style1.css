@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgba(245, 245, 245, 0.913);
+}
+
+body {
+  font-family: 'Noto Sans KR','-apple-system', 'sans-serif';
+}
+
+/*************/
+/* 헤더 영역 */
+/*************/
+
+header {
+  width:100%;
+  height: 5rem;
+  position: relative;
+  color: white;
+}
+
+#logo {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  padding: 10px;
+}
+
+.select_lang {   /* 언어선택 박스 영역 */
+  position: relative;
+  float: right;
+  border: 1px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 15px;
+  padding-right: 28px;
+}
+
+.lang {   /* 언어선택 탭 내부 */
+  background-color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  width: 90px;
+  height: 28px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#topMenu {
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+}
+
+ul { 
+  list-style: none;
+}
+
+.sideMenu { /* 상단 메뉴 */
+  float: right;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sideMenu a {
+  text-decoration: none;
+  font-weight: bold;  
+}
+
+/*************/
+/* 메인 영역 */
+/*************/
+
+/* 사용 가능한 시청기기 */
+
+#device-section {
+  width: 100%;
+}
+
+.device-title {
+  text-align: center;
+  font-size: 2.833rem;
+  font-weight: bold;
+  padding:50px;
+  /* margin: 50px; */
+}
+
+.device-img {
+  background-color: #292929;
+  padding: 5% 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.device-icon {
+  background-color: #292929;
+  margin: auto;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 1.25rem;
+}
+
+.device-icon > img, .device-icon > p {
+  background-color: #292929;
+}
+
+.device-icon > img {
+  filter : drop-shadow(5px 5px 5px #767676);
+}
+
+
+
+/*자주찾는 질문*/
+
+#qna_section {
+  padding-bottom: 2px;
+  border-bottom: 1px solid lightgray;
+}
+
+.qna-title { 
+  text-align: center;
+  font-size: 2.833rem;
+  font-weight: bold;
+  padding: 0 50px;
+  margin: 50px;
+}
+
+details { /* 토글 오픈시 내부 설명 */
+  border-bottom: 1px solid #acacac;
+  font-size: medium;
+  padding: 30px 30px 45px 30px;
+}
+
+details[open] summary { /* 토글 열었을 때 제목변화 */
+ text-shadow: 0.5px 0.5px 3px rgb(255, 255, 255);
+}
+
+details summary { /* 토글 제목 */
+  font-size: large;
+  font-weight: bold;
+  padding :15px 0;
+  cursor: pointer; /* 마우스 커서 손모양*/
+}
+
+details summary::marker { /* 삼각형 토글 마커 삭제 */
+  font-size: 0;
+}
+.qna-last { /* 마지막줄 보더 삭제 */
+  border-bottom: 0px solid;
+}
+
+summary::after {
+  content: "";
+  background-image: url(./images/bottom\ arrow.png);
+  display: inline-block;
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+details[open] summary::after {
+  content: "";
+  background-image: url(./images/top\ arrow.png);
+  display: inline-block;
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+/*************/
+/* 푸터 영역 */
+/*************/
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #acacac;
+  margin-top: 3px;
+  padding: 10px;  
+}
+.footer-info {
+  width: 100%;
+  padding: 10px;
+}
+.footer-info li {
+  float: left;
+  /* list-style: none; */
+  padding-right: 25px;
+}
+.footer-info li a {
+  font-size: 1rem;
+  color:rgb(161, 156, 156);
+  text-decoration: none;
+}
+
+.detail-box {
+  font-size: xx-small;
+  font-weight: 300;
+  color: rgb(161, 156, 156);
+  padding: 10px;
+}
+.detail-box p {
+  padding-bottom: 5px;
+}
+.detail-box p span {
+  padding-right:10px;
+}
+
+#sns {
+  box-sizing: border-box;
+  width: 100%;
+  padding:  0px 10px 10px 10px;
+}
+.sns-icon {
+  width: 3rem;
+  padding-right:15px;
+}
+.copy-right {
+  font-size: x-small;
+  font-weight: 400;
+  color: rgb(161, 156, 156);
+  padding: 0px 10px 10px 10px;
+}
