@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ott-style1.css"> <!-- css -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- 햄버거 아이콘 -->
+  <script src="https://kit.fontawesome.com/3d3e474ad5.js" crossorigin="anonymous"></script> <!-- 햄버거 아이콘 -->
+  <script src="ott-script1.js" defer></script> <!-- js -->
+  <title>OZ Landing Page</title>
+</head>
+
+<body>
+  <div id="hamburger">
+    <div class="hamcontainer">
+      <div class="hambox">
+        <div class="hammenu-logo">
+          <img src="./images/OZ_logo2.png" alt="logo">
+        </div>
+        <div>
+          <a class="menu-out" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </div>
+        <div>
+          <a class="hammenu1" href="#"><i class="fa-solid fa-user"></i> &nbsp;&nbsp;로그인/회원가입</a>
+        </div>
+        <div>
+          <a class="hammenu2" href="#"><i class="fa-solid fa-list"></i> &nbsp;소개</a>
+        </div> 
+        <div>
+          <a class="hammenu3" href="#"><i class="fa-solid fa-notes-medical"></i> &nbsp;구독 서비스</a>
+        </div>
+        <div>
+          <a class="hammenu4" href="#"><i class="fa-solid fa-mobile"></i> &nbsp;&nbsp;연동 기기</a>
+        </div>
+        <div>
+          <a class="hammenu5" href="#"><i class="fa-sharp fa-solid fa-question"></i> &nbsp;&nbsp;자주 묻는 질문</a>
+        </div>
+        <div clas="ham-sns">
+          <div>
+            <a class="yt" href="#"><img src="./images/youtube1.png"></a>
+          </div>
+          <div>
+            <a class="ist" href="#"><img src="./images/instagram1.png"></a>
+          </div>
+          <div>
+            <a class="tw" href="#"><img src="./images/twitter1.png"></a>
+          </div>
+          <div>
+            <a class="fb" href="#"><img src="./images/facebook1.png"></a>
+          </div>
+          <div class="hamcancle">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+    
+  <!-- 상단 메뉴 -->
+  <header id="header">
+    <nav class="navbar">
+      <div>
+        <a href="./miniproject1.html">
+          <img id="logo" src="./images/OZ_logo2.png" alt="logo">
+        </a>
+      </div>
+      <ul class="sel">
+        <li><a href="#">소개</a></li>
+        <li><a href="#">구독 서비스</a></li>
+        <li><a href="#">연동 기기</a></li>
+        <li><a href="#">자주 묻는 질문</a></li>
+      </ul>
+      <ul class="navbar_menu">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+      <div class="select_lang">
+        <select class="lang">
+        <option value="kor" selected>한국어</option>
+        <option value="eng">ENGLISH</option>
+        <option value="jpn">日本語</option>
+        <option value="chn">中文</option>
+        </select>            
+      </div>
+      <a href="#" class="navbar_tooglebtn"><i class="fa-solid fa-bars"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 첫페이지 -->
+    <section id="first_page">
+      <div class="conimg">
+        <p class="hw">OZ</p>
+        <p class="mw">새로운 OTT 서비스의 탄생 !!</p>
+        <video muted autoplay loop> <!-- 비디오 삽입 -->
+          <source src="./images/카지노 티저 예고편ㅣ디즈니 360p.mp4" type="video/mp4">
+          <strong>Your browser does not support the video tag.</strong>
+        </video>
+        <p class="mw1">OZ와 함께<br>방송, 영화, 해외시리즈, 애니메이션 등<br>마법 같은 일상의 재미를 느껴보세요</p>
+      </div>
+    </section>
+
+    <!-- 팝업 창 -->
+    <div id="popup">
+      <div class="popupbox">
+        <div class="popupcancle"></div>
+      </div>
+    </div>
+    
+    <section id="contents1">
+      <div class="middle1">
+        <p class="h2w">OZ에만 있는 재미 !!<br></p>
+        <p class="m2w1">오리지널 콘텐츠를 만나보세요<br></p>
+        <p class="m2w">차별화된 웰메이드 오리지널 콘텐츠</p>
+      </div>
+      <div class="middle_all">
+        <div class="slide">
+          <div class="slide_item">
+            <img src="./images/01.jpg">
+          </div>
+          <div class="slide_item">
+            <img src="./images/02.jpg">
+          </div>
+          <div class="slide_item">
+            <img src="./images/03.jpg">
+          </div>
+          <div class="slide_item">
+            <img src="./images/04.jpg">
+          </div>
+          <div class="slide_prev_button slide_button"></div>
+          <div class="slide_next_button slide_button"></div>
+          <ul class="slide_pagination"></ul>
+        </div>
+      </div>
+    </section>
+    <section id="contents2">
+      <div>
+        <p class="m3w">주목할 만한 한국 콘텐츠</p>
+      </div>
+      <div class="btn01">
+        <img src="./images/angle-left-icon.jpg">
+      </div>
+      <div style="overflow: hidden;">
+        <div class="subcontainer">
+          <div class="favorite">
+            <img src="./images/a.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/b.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/c.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/d.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/e.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/f.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/g.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/h.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/i.jpg">
+          </div>
+          <div class="favorite">
+            <img src="./images/j.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="btn02">
+        <img src="./images/angle-right-icon.jpg">
+      </div>
+      <div>
+        <p class="m3w">취향저격 추천 콘텐츠</p>
+      </div>
+      <div class="btn03">
+        <img src="./images/angle-left-icon.jpg">
+      </div>
+      <div style="overflow: hidden;">
+        <div class="subcontainer1">
+          <div class="favorite1">
+            <img src="./images/a.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/b.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/c.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/d.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/e.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/f.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/g.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/h.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/i.jpg">
+          </div>
+          <div class="favorite1">
+            <img src="./images/j.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="btn04">
+        <img src="./images/angle-right-icon.jpg">
+      </div>
+      <div>
+        <p class="m3w">OZ 최신작</p>
+      </div>
+      <div class="btn05">
+        <img src="./images/angle-left-icon.jpg">
+      </div>
+      <div style="overflow: hidden;">
+        <div class="subcontainer2">
+          <div class="favorite2">
+            <img src="./images/a.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/b.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/c.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/d.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/e.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/f.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/g.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/h.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/i.jpg">
+          </div>
+          <div class="favorite2">
+            <img src="./images/j.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="btn06">
+        <img src="./images/angle-right-icon.jpg">
+      </div>
+    </section>
+    <section id="device-section">
+      <div class="device-title">
+        <p>언제 어디서나<br>다양한 디바이스에서 시청하세요</p>
+      </div>
+      <div class="device-img">
+        <div class="device-icon">
+          <img src="./images/tv.png" alt="TV">
+          <p><br>TV</p>
+        </div>
+        <div class="device-icon">
+          <img src="./images/computer.png" alt="컴퓨터">
+          <p><br>컴퓨터</p>
+        </div>
+        <div class="device-icon">
+          <img src="./images/laptop.png" alt="노트북">
+          <p><br>노트북</p>
+        </div>
+        <div class="device-icon">
+          <img src="./images/tablet.png" alt="태블릿">
+          <p><br>태블릿</p>
+        </div>
+        <div class="device-icon">
+          <img src="./images/phone.png" alt="핸드폰">
+          <p><br>핸드폰</p>
+        </div>
+        <div class="device-icon">
+          <img src="./images/game console.png" alt="게임콘솔">
+          <p><br>게임콘솔</p>
+        </div>
+      </div>
+      <div class="add-ex">
+        <p>좋아하는! 자주보는! 콘텐츠를 미리 다운 받아 놓으세요<br>오프라인에서도 언제나 위의 기기들만 있다면 시청이 가능해집니다</p>
+      </div>
+    </section>
+    <section id="qna_section">
+      <div class="qna-title">
+        <p>자주 찾는 질문</p>
+      </div>       
+      <details>
+        <summary>OZ에 대해 알려주세요! &nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+        &nbsp;&nbsp;차세대 OTT라 불리며 각종 영화, 드라마, 애니메이션, 어린이 콘텐츠, 다큐멘터리 등 장르 불문한 다양한 콘텐츠를 시청할 수 있는 스트리밍 서비스입니다.<br>
+        &nbsp;&nbsp;최신 공개작부터 시대를 초월한 명작, 독점 오리지널 서비스까지 풍성한 콘텐츠를 광고없이 스트리밍 할 수 있습니다.
+      </details>
+      <details>
+        <summary>OZ 오리지널 콘텐츠는 무엇이 있나요? &nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+        &nbsp;&nbsp;Oh!riginal 은 OZ에서 자체 제작한 콘텐츠를 의미합니다.<br><br>
+        &nbsp;&nbsp;주요 콘텐츠는 많은 고객님들께서 사랑해주셨던 [환승연애], [술꾼도시 여자들], [신서유기 스페셜 스프링캠프], [여고추리반] 등이 있으며, Oh!riginal 콘텐츠의 시즌2 및 신규 콘텐츠를 준비 중에 있으니 앞으로 더 재미있는 OZ를 기대해주시고 많은 이용 부탁드립니다.
+      </details>
+      <details>
+        <summary>OZ 회원가입 방법을 알려주세요! &nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+        &nbsp;&nbsp;OZ 회원가입은 OZ ID, 각종 SNS ID를 통해 가입이 가능합니다.<br><br>
+        <ul>&nbsp;★ &nbsp;회원가입 방법
+          <li>&nbsp;&nbsp;&nbsp; 1. &nbsp;OZ ID : OZ에서만 사용하는 OZ 전용 ID</li>
+          <li>&nbsp;&nbsp;&nbsp; 2. &nbsp;SNS ID : 사용하시는 SNS(네이버, 카카오, 페이스북, 트위터, Apple)의 계정을 연동하여 가입히는 ID</li>
+        </ul>
+      </details>
+      <details>
+        <summary>정기결제 서비스는 무엇이 있나요? &nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+        &nbsp;&nbsp;정기결제란, 1개월 또는 1년 단위로 정기적으로 자동 결제가 이루어지는 편리한 서비스입니다.<br>
+        &nbsp;&nbsp;최초 결제시 등록하신 결제수단을 통해서 서비스를 계속 이용하실 수 있도록 정기적으로 결제가 이루어지기 때문에 매월/메년 다시 결제하는 번거로움 없이 지속적으로 티빙 서비스를 이용하실 수 있습니다.<br><br>
+        &nbsp;&nbsp;단, 정기결제 이용중 최초 결제시 등록하신 핸드폰/신용카드/네이버페이/카카오페이 등의 결제정보가 변경될 경우 서비스가 중지될 수 있으니 참고해 주시기 바랍니다. 
+      </details>
+      <details class="qna-last">
+        <summary>OZ PASS 등록방법을 알고 싶어요! &nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+        &nbsp;&nbsp;OZ PASS 이용권은 LG U+ 통신사 요금제 혜택으로 제공되는 이용권으로 관련 요금제를 사용하고 계시다면 제공받으실 수 있습니다.<br>
+        &nbsp;&nbsp;OZ PASS 이용권의 경우 OZ에서 별도 구매나 등록하는 방법이 아닌 LG U+ 통신사 사이트에서 등록이 필요하신 점 참고하시어 이용에 불편 없으시길 바랍니다.
+      </details>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-menu">
+      <div class="footer-info">
+        <ul>
+          <li><a href="#" target="_blank">회사소개</a></li>
+          <li><a href="#" target="_blank">인재채용</a></li>
+          <li><a href="#" target="_blank">서비스 소개</a></li>
+          <li><a href="#" target="_blank">이용약관</a></li>
+          <li><a href="#" target="_blank">개인정보 처리방침</a></li>
+          <li><a href="#" target="_blank">고객센터</a></li>
+        </ul>
+        <br>
+      </div>
+      <div class="detail-box">
+        <p>
+          <span>대표이사 : HONG GILDONG &nbsp;&nbsp;&nbsp;| </span>
+          <span>사업자정보확인 &nbsp;&nbsp;&nbsp;| </span>
+          <span>사업자등록번호 : 1234-5678 &nbsp;&nbsp;&nbsp;| </span>
+          <span>통신판매신고번호 : 2022-서울마포-1004호</span>
+        </p>
+        <p>
+          <span>사업장 : 서울특별시 서초구 강남대로99길 45 &nbsp;&nbsp;&nbsp;| </span>
+          <span>호스팅사업자 : OZ미디어네트웍스(주)</span>
+        </p>
+        <p>
+          <span><a href="#">고객문의 바로가기 &nbsp;&nbsp;&nbsp;| </a></span>
+          <span>대표메일 : oz@ozworld.com &nbsp;&nbsp;&nbsp;| </span>
+          <span>고객센터 : 1670-1234(평일/주말 9시~18시,공휴일 휴무)</span>
+        </p>
+        <p>
+          <span>OZ시청자 상담실 (편성 문의 및 시청자 의견) : 070-070-1234 &nbsp;&nbsp;&nbsp;| </span>
+          <span>OZ MEDIA 고객센터(방송편성문의) : 1588-1004</span>
+        </p>
+      </div>
+      <div id="sns">
+          <a href="#"><img class="sns-icon" src="./images/youtube1.png" alt="유튜브로 이동"></a>
+          <a href="#"><img class="sns-icon" src="./images/instagram1.png" alt="인스타그램으로 이동"></a>
+          <a href="#"><img class="sns-icon" src="./images/twitter1.png" alt="트위터로 이동"></a>            
+          <a href="#"><img class="sns-icon" src="./images/facebook1.png" alt="페이스북으로 이동"></a>
+      </div>
+      <div>
+        <p class="copy-right">Copyright ⓒ 주식회사 오즈 All right reserved.</p>
+      </div>
+    </div>
+    <div id="email">
+      <form action="" method="get">
+        <label for="email" class="event">1개월 무료 구독 이벤트!! &nbsp;&nbsp;&nbsp;
+          <input class="email" type="email" placeholder="   이메일 주소를 입력해주세요">
+          <button class="submit">이벤트 신청</button>
+        </label>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
