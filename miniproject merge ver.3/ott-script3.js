@@ -145,63 +145,24 @@ slide.addEventListener("mouseout", () => {
   }, 3000);
 });
 
-
-var a = document.querySelector('.subcontainer').style.transform = 'translate(0vw)';
-var b = document.querySelector('.btn02').addEventListener('click', function(){
-          document.querySelector('.subcontainer').style.transform = 'translate(-70vw)';
-        });
-
-if(a = true){
-  document.querySelector('.btn02').addEventListener('click', function(){
-      document.querySelector('.subcontainer').style.transform = 'translate(-70vw)';
-  });
-}
-if(b = true){
-  document.querySelector('.btn01').addEventListener('click', function(){
-    document.querySelector('.subcontainer').style.transform = 'translate(0vw)';
+document.querySelector('.btn01').addEventListener('click', function(){
+  document.querySelector('.subcontainer').style.transform = 'translate(0vw)';
 });
-  document.querySelector('.btn02').addEventListener('click', function(){
-    document.querySelector('.subcontainer').style.transform = 'translate(-110vw)';
-  });
-}
-
-var c = document.querySelector('.subcontainer1').style.transform = 'translate(0vw)';
-var d = document.querySelector('.btn04').addEventListener('click', function(){
-          document.querySelector('.subcontainer1').style.transform = 'translate(-70vw)';
-        });
-
-if(c = true){
-  document.querySelector('.btn04').addEventListener('click', function(){
-      document.querySelector('.subcontainer1').style.transform = 'translate(-70vw)';
-  });
-}
-if(d = true){
-  document.querySelector('.btn03').addEventListener('click', function(){
-    document.querySelector('.subcontainer1').style.transform = 'translate(0vw)';
+document.querySelector('.btn02').addEventListener('click', function(){
+  document.querySelector('.subcontainer').style.transform = 'translate(-110vw)';
 });
-  document.querySelector('.btn04').addEventListener('click', function(){
-    document.querySelector('.subcontainer1').style.transform = 'translate(-110vw)';
-  });
-}
-
-var e = document.querySelector('.subcontainer2').style.transform = 'translate(0vw)';
-var f = document.querySelector('.btn06').addEventListener('click', function(){
-          document.querySelector('.subcontainer2').style.transform = 'translate(-70vw)';
-        });
-
-if(e = true){
-  document.querySelector('.btn06').addEventListener('click', function(){
-      document.querySelector('.subcontainer2').style.transform = 'translate(-70vw)';
-  });
-}
-if(f = true){
-  document.querySelector('.btn05').addEventListener('click', function(){
-    document.querySelector('.subcontainer2').style.transform = 'translate(0vw)';
+document.querySelector('.btn03').addEventListener('click', function(){
+  document.querySelector('.subcontainer1').style.transform = 'translate(0vw)';
 });
-  document.querySelector('.btn06').addEventListener('click', function(){
-    document.querySelector('.subcontainer2').style.transform = 'translate(-110vw)';
-  });
-}
+document.querySelector('.btn04').addEventListener('click', function(){
+  document.querySelector('.subcontainer1').style.transform = 'translate(-110vw)';
+});
+document.querySelector('.btn05').addEventListener('click', function(){
+  document.querySelector('.subcontainer2').style.transform = 'translate(0vw)';
+});
+document.querySelector('.btn06').addEventListener('click', function(){
+  document.querySelector('.subcontainer2').style.transform = 'translate(-110vw)';
+});
 
 var ham = document.querySelector('.hamcontainer').style.display="none";
 var hamcancle;
